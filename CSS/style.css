@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+}
+/*Header*/
+.nav-bar {
+  width: 100%;
+  height: 10vh;
+  box-shadow: 0 0.1px 10px rgba(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar .first-sec {
+  font-size: xx-large;
+}
+
+.nav-bar .second-sec div {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-image: url("../assets/mhd.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 3px;
+}
+
+/*Main*/
+.main {
+  width: 100%;
+  height: 80vh;
+}
+
+.main .first-section {
+  text-align: center;
+  font-size: x-large;
+  padding-top: 20px;
+}
+
+.main .second-section {
+  width: 80%;
+  height: 70vh;
+  margin: 0 auto;
+  background-color: #f2eaea;
+  border-radius: 10px;
+}
+
+.main .second-section .first-sec {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.main .second-section .first-sec .status-card {
+  width: 30%;
+  height: 80px;
+  background-color: rgb(247, 173, 35);
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main .second-section .first-sec .status-card span {
+  font-weight: 10;
+}
+
+.main .second-section .second-sec {
+  display: flex;
+  padding: 10px;
+  gap: 5px;
+}
+
+.main .second-section .second-sec .left {
+  width: 35%;
+}
+
+.main .second-section .second-sec .left .form {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main .second-section .second-sec .left .form section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main .second-section .second-sec .left .form section button {
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: #007bff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.main .second-section .second-sec .left .form section button:hover {
+  background-color: #0069d9;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+}
+
+.main .second-section .second-sec .right {
+  width: 65%;
+}
+
+.main .second-section .second-sec .right .search-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main .second-section .second-sec .right .search-container input {
+  width: 80%;
+}
+
+.main .second-section .second-sec .right .task-card {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.main .second-section .second-sec .right .task-card h4 {
+  margin-bottom: 5px;
+}
+
+.main .second-section .second-sec .right .task-card p {
+  margin-bottom: 10px;
+}
+
+.main .second-section .second-sec .right .task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.main .second-section .second-sec .right .task-actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.main .second-section .second-sec .right .task-actions button:hover {
+  background-color: #0056b3;
+}
+
+.main .second-section .second-sec .right .task-container {
+  margin-top: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*Footer*/
+.footer {
+  background-color: #f2eaea;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoApp</title><link rel="stylesheet" href="../CSS/style.css">
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <section class="first-sec">
+        <h1><span class="greeting"></span>, Mhd</h1>
+      </section>
+
+      <section class="second-sec">
+        <div></div>
+      </section>
+    </nav>
+
+    <main class="main">
+      <section class="first-section">
+        <h1>Commencez à planifier vos tâches</h1>
+      </section>
+
+      <section class="second-section">
+
+        <section class="first-sec">
+          <div class="status-card">
+            <h3>Taches totales</h3>
+            <h3><span>05</span></h3>
+          </div>
+
+          <div class="status-card">
+            <h3>Taches en cours</h3>
+            <h3><span>05</span></h3>
+          </div>
+
+          <div class="status-card">
+            <h3>Taches terminés</h3>
+            <h3><span>05</span></h3>
+          </div>
+        </section>
+
+        <section class="second-sec">
+          <section class="left">
+            <form class="form">
+
+              <input type="text" name="title" id="title"
+                placeholder="Ajouter une tache" />
+
+              <textarea name="description"
+                placeholder="Ajouter la description de cette tâche"></textarea>
+
+              <section>
+                <button class="add-task-button" type="submit">Ajouter</button>
+              </section>
+
+            </form>
+          </section>
+
+          <section class="right">
+            <section class="search-container">
+              <input type="search" id="search"
+                placeholder="Rechercher une tache">
+            </section>
+
+            <section class="task-container">
+
+            </section>
+          </section>
+        </section>
+
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Copyright &copy; 2024 TodoApp. All rights reserved.</p>
+    </footer>
+
+    <script src="../JS/index.js"></script>
+  </body>
+</html>
